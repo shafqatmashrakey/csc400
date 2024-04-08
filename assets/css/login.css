@@ -1,0 +1,96 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+  margin: 100px auto;
+  background-color: #222;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #ff4444;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 18px;
+  color: #ff4444;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: calc(100% - 20px); /* Adjusted width */
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ff4444;
+  background-color: #333;
+  color: #fff;
+  margin: 0 auto; /* Horizontally center aligning */
+  display: block;
+}
+
+.form-group button {
+  width: calc(100% - 20px); /* Adjusted width */
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  background-color: #ff4444;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 0 auto; /* Horizontally center aligning */
+  display: block;
+}
+
+.form-group button:hover {
+  background-color: #ff3333;
+}
+
+.form-group .link {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.form-group .link a {
+  color: #ff4444;
+  text-decoration: none;
+}
+
+.form-group .link a:hover {
+  text-decoration: underline;
+}
+
+/* Styles for Admin Login */
+.admin-login {
+  margin-top: 30px;
+}
+
+.admin-login h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ff4444;
+}
+
+.admin-login .form-group input {
+  width: calc(100% - 20px);
+}
+
+.admin-login .form-group button {
+  width: calc(100% - 20px);
+}

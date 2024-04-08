@@ -1,0 +1,56 @@
+/* CSS for Brazilian-themed leaderboard */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffebcd; /* Navajo white */
+    color: #000; /* Black */
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #228b22; /* Forest green */
+}
+
+#leaderboard {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+#leaderboard li {
+    background-color: #f5f5f5; /* White smoke */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#leaderboard li:nth-child(odd) {
+    background-color: #e0ffff; /* Light cyan */
+}
+
+#leaderboard li:nth-child(even) {
+    background-color: #f0e68c; /* Khaki */
+}
+
+#leaderboard li::before {
+    content: '🏆 '; /* Trophy emoji */
+    margin-right: 5px;
+    font-size: 1.2em;
+}
+
+/* Styling for the Return Home link */
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #228b22; /* Forest green */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

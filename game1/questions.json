@@ -1,0 +1,66 @@
+[
+  {
+    "question": "What is the bangla meaning of 'Excuse me'?",
+    "choice1": "দুঃখিত (Duḥkhitô)",
+    "choice2": "শুনুন (Shunun)",
+    "choice3": "শুভ রাত্রি (Shubhô ratri)",
+    "choice4": "আসি? (Ashi?)",
+    "answer": 1
+  },
+  {
+    "question": "What is the reply to 'How are you?'?",
+    "choice1": " তোমার নাম কি?(Tomar nam ki?)",
+    "choice2": " সুপ্রভাত (Shuprôbhat)",
+    "choice3": " আমি ভালো আছি।(Ami bhalo achhi)",
+    "choice4": " আসি? (Ashi?)",
+    "answer": 3
+},
+{
+    "question": "What is the meaning of তোমার সাথে দেখা হয়ে ভালো লাগলো। (Tomar shathe dekha hôye bhalo laglo) in English?",
+    "choice1": " Goodbye",
+    "choice2": " I am leaving",
+    "choice3": " I have not seen you long time",
+    "choice4": " Pleased to meet you",
+    "answer": 4
+},
+{
+  "question": "What do you say for 'I am bidding farewell'?",
+  "choice1": " খোদা হাফেজ। (Khoda hafeǰ)",
+  "choice2": " অভিনন্দন! (Abhinandana!)",
+  "choice3": " মাফ করবেন (Maf kôrben)",
+  "choice4": " ধন্যবাদ (Dhônyôbad)",
+  "answer": 1
+},
+{
+  "question": "What is the English translation of 'Pleased to meet you'?",
+  "choice1": "তুমি কেমন আছো?",
+  "choice2": "আমি ভালো আছি।",
+  "choice3": "তোমার সাথে দেখা হয়ে ভালো লাগলো।",
+  "choice4": "Goodbye",
+  "answer": 3
+},
+{
+  "question": "What is the Bangla meaning of 'Long time no see'?",
+  "choice1": "অনেক দিন দেখা হয়না।",
+  "choice2": "তুমি কেমন আছো?",
+  "choice3": "তোমার নাম কি?",
+  "choice4": "আমি ভালো আছি।",
+  "answer": 1
+},
+{
+  "question": "How do you say 'Good morning' in Bengali?",
+  "choice1": "শুভ রাত্রি",
+  "choice2": "সুপ্রভাত",
+  "choice3": "অনেক দিন দেখা হয়না",
+  "choice4": "আসি?",
+  "answer": 2
+},
+{
+  "question": "What is the Bangla meaning of 'Congratulations!'?",
+  "choice1": "অভিনন্দন!",
+  "choice2": "শুনুন",
+  "choice3": "আমি ভালো আছি।",
+  "choice4": "তোমি কোথা থেকে এসেছো?",
+  "answer": 1
+}
+]
