@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portuguese Quiz</title>
+    <link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/nav.css">
+
+</head>
+<body>
+    <!-- Navigation bar -->
+    <nav class="navbar">
+        <ul class="nav-list">
+		    <li><a href="../public/index.html">Go Home</a></li>
+            <li><a href="index.html">Main Menu</a></li>
+            <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1280px-Flag_of_Brazil.svg.png" alt="Brazilian Flag" class="flag"></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Portuguese Quiz</h1>
+        <div id="home-page">
+            <button id="start-easy">Start Easy</button>
+            <button id="start-medium">Start Medium</button>
+            <button id="start-hard">Start Hard</button>
+            <!-- Link to leaderboard page -->
+            <a href="leaderboard.html"><button id="view-leaderboard">View Leaderboard</button></a>
+        </div>
+        <div id="quiz-page" style="display: none;">
+            <h2 id="question"></h2>
+            <div id="choices"></div>
+            <div id="feedback"></div>
+            <div id="score">Score: 0</div>
+            <div id="timer">Time Left: <span id="countdown">15</span> seconds</div>
+        </div>
+        <div id="leaderboard-page" style="display: none;">
+            <h2>Leaderboard</h2>
+            <ol id="leaderboard-list"></ol>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

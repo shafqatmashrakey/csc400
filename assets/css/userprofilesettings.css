@@ -1,0 +1,117 @@
+body {
+    background-color: darkcyan;
+}
+
+.profile {
+    background-color: cornflowerblue;
+    max-width: 400px;
+    width: 100%;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.profile h3 {
+    margin-top: 0;
+}
+
+.user img {
+    border-radius: 50%;
+    width: 150px;
+    margin-top: 70px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.profile input {
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.user {
+    position: absolute;
+    left: 150px;
+    top: 10px;
+}
+
+.profile label {
+    text-align: left;
+    width: 50%;
+}
+
+.savechanges-button  {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: black;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+}
+
+.savechanges-button:hover {
+    background: gray;
+}
+
+.user-container  {
+    display: flex;
+    margin-top: 70px;
+}
+
+.profile input {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.profile h3 {
+    font-size: 24px;
+}
+
+.user, .profile {
+    margin: 0 auto;
+}
+
+.upload-button {
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    color: black;
+    background-color: orange;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+
+.upload-button:hover {
+    background-color: darkorange;
+}
+
+#imageUpload {
+    display: none;
+}
+
+.userpage-button {
+    text-decoration: none;
+    color: #fff;
+    background-color:forestgreen;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.userpage-button:hover {
+    background-color: yellowgreen;
+}

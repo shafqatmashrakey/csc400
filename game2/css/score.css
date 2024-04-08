@@ -1,0 +1,52 @@
+/* Brazilian-themed CSS for Submit Score page */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFEBCD; /* Navajo White */
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #228B22; /* Forest Green */
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #FFF8DC; /* Cornsilk */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #228B22; /* Forest Green */
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #228B22; /* Forest Green */
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #228B22; /* Forest Green */
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #2E8B57; /* Sea Green */
+}

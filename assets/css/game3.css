@@ -1,0 +1,83 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: #6495ED;
+}
+
+.box {
+    margin: 25px auto;
+    padding: 10px;
+    border: 5 px solid cornflowerblue;
+    max-width: 200px
+}
+
+input[type="text"] {
+    margin-top: 15px;
+    padding: 10px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+#message {
+    font-weight:500;
+    margin-top: 20px;
+}
+
+h1#enterWord {
+    white-space: nowrap;
+    text-align: center;
+    padding-top: 60px;
+    margin-top: 50px;
+    
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#enterWord {
+    
+    text-align: center;
+}
+
+.buttonFind, .buttonCreate, .buttonIntro, .startBtn {
+    background-color: #98FB98;
+    font-size: 20px;
+    border-radius: 6px;
+}
+
+#word {
+    font-size: 25px;
+}
+
+.scorebox {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#score-title {
+    padding-right: 50px;
+}
+
+.startBtn {
+    display: block;
+    text-decoration: none;
+
+}
+
+#start {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
