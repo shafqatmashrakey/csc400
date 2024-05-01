@@ -1,4 +1,5 @@
 <?php
+// Author: Ricardo Carneiro
 // Check if a session is not already started before starting it
 if (session_status() == PHP_SESSION_NONE) {
     session_start();

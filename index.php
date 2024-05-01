@@ -56,16 +56,16 @@ if (isset($_GET['logout'])) {
                 <a href="game1/indexgame1.html">Play Game 1</a>
             </div>
 			<div>
-                <a href="game2/index.html">Play Game 2</a>
+                <a href="game2/index.php">Play Game 2</a>
             </div>
 			<div>
-                <a href="game3.html">Play Game 3</a>
+                <a href="game3/game3.html">Play Game 3</a>
             </div>
             <div>
                 <a href="useraccount.php">Customize Your Profile</a>
             </div>
             <div>
-                <a href="form.html">Contact Us</a>
+                <a href="public/form.html">Contact Us</a>
             </div>
         </div>
     </div>

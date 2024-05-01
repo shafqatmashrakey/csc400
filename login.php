@@ -36,6 +36,10 @@ if (isset($_POST['login_user'])) {
   <link rel="stylesheet" type="text/css" href="assets/css/register.css">
 </head>
 <body>
+  <div style="text-align: center; margin-top: 20px;">
+    <button class="btn"><a href="public/index.html" style="text-decoration: none; color: white;">Go Home</a></button>
+  </div>
+  
   <div class="header">
     <h2>Login</h2>
   </div>
@@ -53,9 +57,13 @@ if (isset($_POST['login_user'])) {
     <div class="input-group">
       <button type="submit" class="btn" name="login_user">Login</button>
     </div>
+    <div class="input-group">
+      <button type="submit" class="btn" name="check_password"><a href="./password/index.html" style="text-decoration: none;"> Password Strength</a></button>
+    </div>
     <p>
       Not yet a member? <a href="register.php">Sign up</a>
     </p>
   </form>
+  
 </body>
 </html>

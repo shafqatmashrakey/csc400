@@ -1,5 +1,5 @@
 <?php include('server.php');
-
+// Author: Ricardo Carneiro
 // Redirect to user_dashboard.php if the user is already logged in
 if (isset($_SESSION['username'])) {
     header('location: useraccount.php');
@@ -20,6 +20,7 @@ if (isset($_POST['reg_user'])) {
 <head>
   <title>Register</title>
   <link rel="stylesheet" type="text/css" href="assets/css/register.css">
+  <script src="https://www.google.com/recaptcha/enterprise.js" async defer></script>
 </head>
 <body>
   <div class="header">
@@ -44,9 +45,11 @@ if (isset($_POST['reg_user'])) {
       <label>Confirm password</label>
       <input type="password" name="password_2">
     </div>
+    <div class="g-recaptcha" data-sitekey="6LfBG8ApAAAAAHaBxPwQ_12Zu1qk-lrssR04kaC2" data-action="REGISTER"></div>
     <div class="input-group">
       <button type="submit" class="btn" name="reg_user">Register</button>
     </div>
+    
     <p>
       Already a member? <a href="login.php">Sign in</a>
     </p>

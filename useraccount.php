@@ -2,10 +2,10 @@
 session_start();
 
 // Database connection parameters
-$servername = "localhost"; // Replace with your database server name
-$username = "root"; // Replace with your database username
-$password = "admin"; // Replace with your database password
-$dbname = "csc400"; // Replace with your database name
+$servername = "localhost"; 
+$username = "root"; 
+$password = "admin"; 
+$dbname = "csc400"; 
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -54,6 +54,11 @@ $row = mysqli_fetch_assoc($result);
             <p><strong>Username: <?php echo $row['username']; ?></strong></p>
             <p><strong>Role: <?php echo $row['role']; ?></strong></p>
             <p><a href="userprofilesettings.html" class="editprofile-button">Edit Profile</a></p>
+            <p><a href="game1/game.html" class="editprofile-button">Play Game 1</a></p>
+            <p><a href="game2/index.php" class="editprofile-button">Play Game 2</a></p>
+            <p><a href="game3/game3.html" class="editprofile-button">Play Game 3</a></p>
+
+
 <p><a href="logout.php" class="logout-button">Logout</a></p>
         </div>
     </div>
